@@ -4,6 +4,8 @@ import { Loading, ReviewCard } from '../components/Components'
 import { getSpecifiedRestaurant } from '../functions/Functions'
 import { useParams } from 'react-router-dom'
 import { LoadingContext } from '../context/LoadingContext'
+import arrowRightBlackIcon from '../assets/icons/arrow-right-black.svg'
+
 
 const starStyle = {
   itemShapes: ThinStar,
@@ -46,10 +48,10 @@ export function RestaurantDetail() {
           <h1 className='font-bold text-[24px]'>Reviews</h1>
           <div className='flex items-center gap-3'>
             <button  className="p-2 bg-[#D9D9D9] rounded-full hover:scale-125 transition-all duration-300" type="button" id="prev-button-category" onClick={() => scrollingReviewCards.current.scrollLeft -= 600}>
-                <img src="../../src/assets/icons/arrow-right-black.svg" alt="arrow-left" className="rotate-180 w-[1rem]" />
+                <img src={arrowRightBlackIcon} alt="arrow-left" className="rotate-180 w-[1rem]" />
             </button>
             <button className="p-2 bg-[#D9D9D9] rounded-full hover:scale-125 transition-all duration-300" type="button" id="next-button-category" onClick={() => scrollingReviewCards.current.scrollLeft += 600}>
-                <img src="../../src/assets/icons/arrow-right-black.svg" alt="arrow-right" className="w-[1rem]" />
+                <img src={arrowRightBlackIcon} alt="arrow-right" className="w-[1rem]" />
             </button>
           </div>
         </div>
