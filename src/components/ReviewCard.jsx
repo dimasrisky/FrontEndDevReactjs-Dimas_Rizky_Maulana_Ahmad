@@ -1,5 +1,6 @@
 import React from 'react'
 import { faker } from '@faker-js/faker'
+import starIcon from '../assets/icons/star.svg'
 
 export function ReviewCard({ rating, summary, author}) {
   return (
@@ -9,7 +10,7 @@ export function ReviewCard({ rating, summary, author}) {
         <div>
         <h1 className='font-semibold text-[18px]'>{author}</h1>
         <div className='flex items-center gap-1'>
-            <img src="../../src/assets/icons/star.svg" className='w-3' alt="rating" />
+            <img src={starIcon} className='w-3' alt="rating" />
             <h1 className='text-xs font-semibold'>{rating}</h1>
         </div>
         </div>
