@@ -20,7 +20,6 @@ export function RestaurantDetail() {
   const { location_id } = useParams()
   const restaurant = getSpecifiedRestaurant(location_id)
   const { isLoading } = useContext(LoadingContext)
-  console.log(restaurant)
   return (
     <>
       {isLoading && (
