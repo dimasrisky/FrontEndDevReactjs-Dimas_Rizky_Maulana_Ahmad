@@ -63,7 +63,7 @@ Sebelum memulai, pastikan di komputer anda sudah terinstall nodeJs dan npm
 
 Meskipun projek ini tidak menggunakan backend, namun penggunaan authentikasi seperti login tetap dibutuhkan sesuai dengan requirement:
 
-- **Email**: user
+- **Username**: user
 - **Password**: user123
 
 ## Note
