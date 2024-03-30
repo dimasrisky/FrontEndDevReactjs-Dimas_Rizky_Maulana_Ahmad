@@ -1,4 +1,3 @@
-```markdown
 # Restaurant
 
 adalah sebuah proyek website Technical Test yang memungkinkan pengguna untuk menemukan daftar restoran lengkap beserta dengan fitur filtering, rating restoran, nama, cuisine, dan lainnya.
@@ -82,5 +81,3 @@ Meskipun projek ini tidak menggunakan backend, namun penggunaan authentikasi sep
  - masuk ke bagian Endpoints
  - copy X-RapidAPI-Key dan X-RapidAPI-Host
  - paste di file .env
-
-```
